@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel Rating="5">
+    <Name>Tempe Riverwalk Inn</Name>
+    <Phone>(480) 555-1010</Phone>
+    <Phone>(480) 555-1011</Phone>
+    <Address NearestAirport="PHX">
+      <Number>1250</Number>
+      <Street>Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4">
+    <Name>Sun Devil Suites</Name>
+    <Phone>(480) 555-2020</Phone>
+    <Address NearestAirport="PHX">
+      <Number>300</Number>
+      <Street>College Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3">
+    <Name>Mill Avenue Lodge</Name>
+    <Phone>(480) 555-3030</Phone>
+    <Address NearestAirport="PHX">
+      <Number>50</Number>
+      <Street>W 6th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="5">
+    <Name>Desert Sky Hotel</Name>
+    <Phone>(602) 555-1111</Phone>
+    <Phone>(602) 555-1112</Phone>
+    <Address NearestAirport="PHX">
+      <Number>2000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4">
+    <Name>Old Town Stays</Name>
+    <Phone>(480) 555-4040</Phone>
+    <Address NearestAirport="PHX">
+      <Number>7350</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="2">
+    <Name>Budget Cactus Inn</Name>
+    <Phone>(602) 555-2222</Phone>
+    <Address NearestAirport="PHX">
+      <Number>4201</Number>
+      <Street>N 7th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85014</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3">
+    <Name>Mesa Gateway Suites</Name>
+    <Phone>(480) 555-5050</Phone>
+    <Address NearestAirport="IWA">
+      <Number>6033</Number>
+      <Street>S Sossaman Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85212</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4">
+    <Name>Chandler Tech Park Hotel</Name>
+    <Phone>(480) 555-6060</Phone>
+    <Address NearestAirport="PHX">
+      <Number>2625</Number>
+      <Street>W Queen Creek Rd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85248</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="5">
+    <Name>Paradise Valley Resort</Name>
+    <Phone>(602) 555-3333</Phone>
+    <Address NearestAirport="PHX">
+      <Number>5700</Number>
+      <Street>E McDonald Dr</Street>
+      <City>Paradise Valley</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3">
+    <Name>Glendale Sports Stay</Name>
+    <Phone>(623) 555-9090</Phone>
+    <Address NearestAirport="PHX">
+      <Number>9400</Number>
+      <Street>W Maryland Ave</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85305</Zip>
+    </Address>
+  </Hotel>
+</Hotels>

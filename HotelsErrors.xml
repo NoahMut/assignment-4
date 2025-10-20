@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+
+  <!-- Error #1: Missing required <Name> element -->
+  <Hotel Rating="4">
+    <!-- <Name>Missing Name Inn</Name>  (INTENTIONALLY REMOVED) -->
+    <Phone>(480) 555-7777</Phone>
+    <Address NearestAirport="PHX">
+      <Number>777</Number>
+      <Street>W University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error #2: Invalid Zip (only 4 digits; XSD requires 5) -->
+  <Hotel Rating="3">
+    <Name>Bad Zip Lodge</Name>
+    <Phone>(480) 555-8888</Phone>
+    <Address NearestAirport="PHX">
+      <Number>888</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>1234</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error #3: State not two-letter uppercase (uses "Arizona") -->
+  <Hotel Rating="2">
+    <Name>Spelled State Suites</Name>
+    <Phone>(602) 555-1212</Phone>
+    <Address NearestAirport="PHX">
+      <Number>1212</Number>
+      <Street>N Central Ave</Street>
+      <City>Phoenix</City>
+      <State>Arizona</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error #4: Address/Number is not a positive integer ("One") -->
+  <Hotel Rating="5">
+    <Name>Textual Number Hotel</Name>
+    <Phone>(602) 555-3434</Phone>
+    <Address NearestAirport="PHX">
+      <Number>One</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error #5: Unexpected element <Fax> (not defined in schema) -->
+  <Hotel Rating="3">
+    <Name>Extra Element Inn</Name>
+    <Phone>(480) 555-9999</Phone>
+    <Fax>(480) 555-0000</Fax>
+    <Address NearestAirport="PHX">
+      <Number>999</Number>
+      <Street>W 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
